@@ -418,23 +418,23 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style", "font-weight: bold; background-color: royalblue; color: white;");
+            trtr.setAttribute("style","background: royalblue; font-weight: bold;");
             break;
           
           case "HIGH":
-            trtr.setAttribute("style", "background-color: lightblue;");
+            trtr.setAttribute("style","background: lightblue;");
             break;
           
           case "SAFE":
-            trtr.setAttribute("style", "background-color: white;");
+            trtr.setAttribute("style","background: white;");
             break;
 
           case "LOW":
-            trtr.setAttribute("style", "background-color: lightpink;");
+            trtr.setAttribute("style","background: lightpink;");
             break;
 
           case "BOTTOM":
-            trtr.setAttribute("style", "background-color: tomato;");
+            trtr.setAttribute("style","background: tomato;");
             break;
 
           case "ELIMINATED":
@@ -501,23 +501,23 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style", "font-weight: bold; background-color: royalblue; color: white;");
+            trtr.setAttribute("style","background: royalblue; font-weight: bold;");
             break;
           
           case "HIGH":
-            trtr.setAttribute("style", "background-color: lightblue;");
+            trtr.setAttribute("style","background: lightblue;");
             break;
           
           case "SAFE":
-            trtr.setAttribute("style", "background-color: white;");
+            trtr.setAttribute("style","background: white;");
             break;
 
           case "LOW":
-            trtr.setAttribute("style", "background-color: lightpink;");
+            trtr.setAttribute("style","background: lightpink;");
             break;
 
           case "BOTTOM":
-            trtr.setAttribute("style", "background-color: tomato;");
+            trtr.setAttribute("style","background: tomato;");
             break;
 
           case "ELIMINATED":
