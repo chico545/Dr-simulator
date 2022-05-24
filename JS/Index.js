@@ -1,4 +1,4 @@
-/#region Initialisers
+//#region Initialisers
 let CurrentSeason;
 let CurrentChallenge;
 let CurrentEpisode;
@@ -422,23 +422,23 @@ class Screen {
             break;
           
           case "HIGH":
-            trtr.setAttribute("style","background: lightblue;");
+            trtr.setAttribute("style", "background-color: lightblue;");
             break;
           
           case "SAFE":
-            trtr.setAttribute("style","background: #F6C2EB");
+            trtr.setAttribute("style", "background-color: white;");
             break;
 
           case "LOW":
-            trtr.setAttribute("style","background: #F5A9B4");
+            trtr.setAttribute("style", "background-color: lightpink;");
             break;
 
           case "BOTTOM":
-            trtr.setAttribute("style","background: #EF7183");
+            trtr.setAttribute("style", "background-color: tomato;");
             break;
 
           case "ELIMINATED":
-            trtr.setAttribute("style","background: #E41A37; font-weight: bold;");
+            trtr.setAttribute("style","background: red; font-weight: bold;");
             break;
 
           default:
@@ -505,23 +505,23 @@ class Screen {
             break;
           
           case "HIGH":
-            trtr.setAttribute("style","background: lightblue;");
+            trtr.setAttribute("style", "background-color: lightblue;");
             break;
           
           case "SAFE":
-            trtr.setAttribute("style","background: #F6C2EB");
+            trtr.setAttribute("style", "background-color: white;");
             break;
 
           case "LOW":
-            trtr.setAttribute("style","background: #F5A9B4");
+            trtr.setAttribute("style", "background-color: lightpink;");
             break;
 
           case "BOTTOM":
-            trtr.setAttribute("style","background: #EF7183");
+            trtr.setAttribute("style", "background-color: tomato;");
             break;
 
           case "ELIMINATED":
-            trtr.setAttribute("style","background: #E41A37; font-weight: bold;");
+            trtr.setAttribute("style","background: red; font-weight: bold;");
             break;
 
           default:
