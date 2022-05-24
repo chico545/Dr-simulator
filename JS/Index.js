@@ -4055,7 +4055,7 @@ var soju = new Queen("Soju", 3, 4, 3, 4, 3, 3, 3, 1, 1, 1, 1, "Soju", "Soju", "U
 let vanessa = new Queen("Vanessa 'Vanjie' Mateo", 9, 6, 8, 6, 9, 7, 11, 10, 10, 1, 1, "Vanjie", "Vanjie", "US11", false);
 let yvie = new Queen("Yvie Oddly", 12, 4, 12, 11, 6, 10, 15, 12, 8, 1, 1, "Yvie", "Yvie", "US11", false);
 
-let US11 = [akeria, ariel, brooke, honeyd, kahanna, mercedes, ninaw, plastique, rajah, Scarletenvy, shuga, silky, soju, vanessa, yvie];
+let US11 = [akeria, ariel, brooke, honeyd, kahanna, mercedes, ninaw, plastique, rajah, scarletenvy, shuga, silky, soju, vanessa, yvie];
 
 let denali = new Queen("Denali", 4, 8, 14, 9, 10, 11, 13, 6, 8, 1, 0, "Denali", "Denali", "US13", false);
 let elliott = new Queen("Elliott With 2 Ts", 5, 5, 12, 9, 3, 8, 11, 3, 3, 1, 1, "Elliott", "Elliott", "US13", false);
