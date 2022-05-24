@@ -418,7 +418,7 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style","background: #9F60CE; font-weight: bold;");
+            trtr.setAttribute("style","background: royalblue; font-weight: bold;");
             break;
           
           case "HIGH":
@@ -501,7 +501,7 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style","background: #9F60CE; font-weight: bold;");
+            trtr.setAttribute("style","background: royalblue; font-weight: bold;");
             break;
           
           case "HIGH":
