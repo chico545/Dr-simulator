@@ -4041,7 +4041,7 @@ let US2 = [jessicaw, jujus2, morganmcs2, mystique, npb, pandoras2, sahara, shang
 
 let akeria = new Queen("A'keria C. Davenport", 11, 9, 11, 8, 10, 13, 10, 9, 11, 3, 1, "Akeria", "Akeria", "US11", false);
 let ariel = new Queen("Ariel Versace", 8, 6, 8, 5, 8, 8, 8, 3, 4, 2, 2, "Ariel", "Ariel", "US11", false);
-let brooke = new Queen("Brooke Lynn Hytes", 8, 8, 13, 12, 8, 10, 13, 11, 8, 3, 1,  "Brooke", "Brooke", "US11", false);
+let brooke = new Queen("Brooke Lynn Hytes", 8, 8, 13, 12, 8, 10, 13, 11, 8, 3, 1, "Brooke", "Brooke", "US11", false);
 let honeyd = new Queen("Honey Davenport", 4, 6, 5, 7, 4, 9, 4, 6, 9, 1, 1, "Honey", "Honey", "US11", false);
 let kahanna = new Queen("Kahanna Montrese", 4, 5, 5, 4, 5, 6, 8, 2, 4, 1, 1, "Kahanna", "Kahanna", "US11", false);
 let mercedes = new Queen("Mercedes Iman Diamond", 4, 6, 4, 6, 6, 8, 8, 5, 8, 1, 1, "Mercedes", "Mercedes", "US11", false);
@@ -4052,9 +4052,10 @@ let scarletenvy = new Queen("Scarlet Envy", 13, 7, 6, 13, 8, 10, 7, 8, 10, 1, 1,
 let shuga = new Queen("Shuga Cain", 10, 9, 7, 6, 7, 10, 7, 6, 7, 1, 1, "Shuga", "Shuga", "US11", false);
 let silky = new Queen("Silky Nutmeg Ganache", 10, 8, 9, 6, 10, 8, 11, 10, 9, 3, 4, "Silky", "Silky", "US11", false);
 var soju = new Queen("Soju", 3, 4, 3, 4, 3, 3, 3, 1, 1, 1, 1, "Soju", "Soju", "US11", false);
+let vanessa = new Queen("Vanessa 'Vanjie' Mateo", 9, 6, 8, 6, 9, 7, 11, 10, 10, 1, 1, "Vanjie", "Vanjie", "US11", false);
 let yvie = new Queen("Yvie Oddly", 12, 4, 12, 11, 6, 10, 15, 12, 8, 1, 1, "Yvie", "Yvie", "US11", false);
 
-let US11 = [akeria, ariel, brooke, honeyd, kahanna, mercedes, ninaw, plastique, rajah, Scarletenvy, shuga, silky, soju, yvie];
+let US11 = [akeria, ariel, brooke, honeyd, kahanna, mercedes, ninaw, plastique, rajah, Scarletenvy, shuga, silky, soju, vanessa, yvie];
 
 let denali = new Queen("Denali", 4, 8, 14, 9, 10, 11, 13, 6, 8, 1, 0, "Denali", "Denali", "US13", false);
 let elliott = new Queen("Elliott With 2 Ts", 5, 5, 12, 9, 3, 8, 11, 3, 3, 1, 1, "Elliott", "Elliott", "US13", false);
