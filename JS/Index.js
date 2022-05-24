@@ -4039,6 +4039,22 @@ let james = new Queen("James Ross", 14, 10, 12, 6, 12, 10, 14, 12, 8, 1, 4, "Jam
 
 let US2 = [jessicaw, jujus2, morganmcs2, mystique, npb, pandoras2, sahara, shangela, kylies2, tatis2, james];
 
+let denali = new Queen("Denali", 4, 8, 14, 9, 10, 11, 13, 6, 8, 1, 0, "Denali", "Denali", "US13", false);
+let elliott = new Queen("Elliott With 2 Ts", 5, 5, 12, 9, 3, 8, 11, 3, 3, 1, 1, "Elliott", "Elliott", "US13", false);
+let mik = new Queen("Gottmik", 8, 11, 6, 13, 12, 13, 6, 11, 10, 3, 1, "Gottmik", "Gottmik", "US13", false);
+let joey = new Queen("Joey Jay", 6, 7, 6, 5, 5, 7, 7, 2, 4, 4, 2, "JoeyJay", "JoeyJay", "US13", false);
+let kahmora = new Queen("Kahmora Hall", 3, 4, 3, 5, 4, 12, 4, 3, 6, 1, 1,  "Kahmora", "Kahmora", "US13" false);
+let kandym = new Queen("Kandy Muse", 9, 10, 5, 6, 7, 8, 14, 11, 10, 2, 4, "KandyM", "KandyM", "US13", false);
+let lala = new Queen("LaLa Ri", 5, 7, 10, 2, 6, 9, 14, 5, 10, 4, 1, "LalaRi", "LalaRi", "US13", false);
+let olivia = new Queen("Olivia Lux", 11, 5, 11, 10, 8, 11, 8, 7, 10, 4, 1, "OliviaLux", "OliviaLux", "US13", false);
+let rose = new Queen("Rosé", 12, 11, 13, 8, 10, 10, 6, 13, 9, 3, 1, "Rose", "Rose", "US13", false);
+let symone = new Queen("Symone", 14, 7, 7, 9, 12, 9, 13, 13, 13, 4, 1, "Symone", "Symone", "US13", false);
+let tamisha = new Queen("Tamisha Iman", 7, 6, 7, 5, 6, 7, 7, 5, 7, 3, 1, "Tamisha", "Tamisha", "US13", false);
+let tina = new Queen("Tina Burner", 6, 6, 10, 5, 6, 8, 9, 9, 6, 1, 1, "TinaBurner", "TinaBurner", "US13", false);
+let utica = new Queen("Utica Queen", 7, 4, 6, 15, 5, 12, 11, 7, 9, 1, 1, "UticaQueen", "UticaQueen", "US13", false);
+
+let US13 = [denali, elliott, mik, joey, kahmora, kandym, lala, olivia, rose, symone, tamisha, tina, utica];
+
 let anastarzia = new Queen("Anastarzia Anaquway", 7, 6, 8, 7, 9, 8, 6, 8, 10, 5, 0, "Anastarzia", "Anastarzia", "CA1", false);
 let boa = new Queen("BOA", 7, 9, 9, 7, 6, 5, 5, 9, 12, 3, 0, "BOA", "Boa", "CA1", false);
 let ilona = new Queen("Ilona Verley", 6, 7, 9, 7, 9, 8, 11, 8, 8, 2, 4, "Ilona", "Ilona","CA1",false);
