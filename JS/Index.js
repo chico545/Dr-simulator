@@ -1,4 +1,4 @@
-//#region Initialisers
+/#region Initialisers
 let CurrentSeason;
 let CurrentChallenge;
 let CurrentEpisode;
@@ -418,11 +418,11 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style","background: royalblue; font-weight: bold;");
+            trtr.setAttribute("style", "font-weight: bold; background-color: royalblue; color: white;");
             break;
           
           case "HIGH":
-            trtr.setAttribute("style","background: #E183C8");
+            trtr.setAttribute("style","background: lightblue;");
             break;
           
           case "SAFE":
@@ -501,11 +501,11 @@ class Screen {
             break;
 
           case "WIN":
-            trtr.setAttribute("style","background: royalblue; font-weight: bold;");
+            trtr.setAttribute("style", "font-weight: bold; background-color: royalblue; color: white;");
             break;
           
           case "HIGH":
-            trtr.setAttribute("style","background: #E183C8");
+            trtr.setAttribute("style","background: lightblue;");
             break;
           
           case "SAFE":
