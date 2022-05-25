@@ -371,42 +371,42 @@ class Queen {
 
   GetImprov()
   {
-    this.perfomancescore = this.GetScore(15,35,this.improv);
+    this.perfomancescore = this.GetScore(15,40,this.improv);
   }
 
   GetStandUp()
   {
-    this.perfomancescore = this.GetScore(25,45,this.comedy+this.charisma);
+    this.perfomancescore = this.GetScore(25,50,this.comedy+this.charisma);
   }
 
   GetActing()
   {
-    this.perfomancescore = this.GetScore(15,35,this.acting);
+    this.perfomancescore = this.GetScore(15,40,this.acting);
   }
 
   GetDancing()
   {
-    this.perfomancescore = this.GetScore(15,35,this.dance);
+    this.perfomancescore = this.GetScore(15,40,this.dance);
   }
 
   GetSnatchGame()
   {
-    this.perfomancescore = this.GetScore(25,45,this.comedy+this.acting);
+    this.perfomancescore = this.GetScore(25,50,this.comedy+this.acting);
   }
 
   GetRusical()
   {
-    this.perfomancescore = this.GetScore(35,65,this.dance+this.charisma+this.acting);
+    this.perfomancescore = this.GetScore(35,70,this.dance+this.charisma+this.acting);
   }
 
   GetRumix()
   {
-    this.perfomancescore = this.GetScore(35,55,this.charisma+this.dance+this.branding);
+    this.perfomancescore = this.GetScore(35,60,this.charisma+this.dance+this.branding);
   }
 
   GetMusicV()
   {
-    this.perfomancescore = this.GetScore(15,35,this.dance);
+    this.perfomancescore = this.GetScore(15,40,this.dance);
   }
 
   getFinalScore()
@@ -416,7 +416,7 @@ class Queen {
   }
 
   getRunway() {
-    this.runwayscore = this.GetScore(10, 40, this.runway);
+    this.runwayscore = this.GetScore(0, this.runway);
   }
 
   GetDesignScore(bonus = 0)
@@ -738,6 +738,7 @@ class Screen {
 
       let putincenter = document.createElement("center");
       let table = document.createElement("table");
+      table.setAttribute("style", "border-spacing: 15px 12px");
       let thead = document.createElement("thead");
 
       let tbody = document.createElement("tbody");
@@ -759,11 +760,11 @@ class Screen {
             let td = document.createElement("td");
             if(CurrentSeason.eliminatedCast.indexOf(CurrentSeason.fullCast[q+(i*4)])!=-1)
             {
-              td.setAttribute("style", "background: url("+ CurrentSeason.fullCast[q+(i*4)].promo +"); background-size: 200px 200px; background-position: center; height: 195px; width: 195px; -webkit-filter: grayscale(100%);filter: grayscale(100%);")
+              td.setAttribute("style", "background: url("+ CurrentSeason.fullCast[q+(i*4)].promo +"); background-size: 200px 200px; background-position: center; height: 190px; width: 195px; -webkit-filter: grayscale(100%);filter: grayscale(100%);")
             }
             else
             {
-            td.setAttribute("style", "background: url("+ CurrentSeason.fullCast[q+(i*4)].promo +"); background-size: 200px 200px; background-position: center; height: 195px; width: 195px;");
+            td.setAttribute("style", "background: url("+ CurrentSeason.fullCast[q+(i*4)].promo +"); background-size: 200px 200px; background-position: center; height: 190px; width: 195px;");
             }
             td.setAttribute("class","promos");
             tr.append(td);
@@ -809,11 +810,11 @@ class Screen {
             let td = document.createElement("td");
             if(CurrentSeason.eliminatedCast.indexOf(CurrentSeason.fullCast[q+(i*4)])!=-1)
             {
-              td.setAttribute("style", "background: url("+ CurrentSeason.fullCast[q+(i*4)].promo +"); background-size: 200px 200px; background-position: center; height: 195px; width: 195px; -webkit-filter: grayscale(100%);filter: grayscale(100%);")
+              td.setAttribute("style", "background: url("+ CurrentSeason.fullCast[q+(i*4)].promo +"); background-size: 200px 200px; background-position: center; height: 105px; width: 195px; -webkit-filter: grayscale(100%);filter: grayscale(100%);")
             }
             else
             {
-            td.setAttribute("style", "background: url("+ CurrentSeason.fullCast[q+(i*4)].promo +"); background-size: 200px 200px; background-position: center; height: 195px; width: 195px;");
+            td.setAttribute("style", "background: url("+ CurrentSeason.fullCast[q+(i*4)].promo +"); background-size: 200px 200px; background-position: center; height: 190px; width: 195px;");
             }
             td.setAttribute("class","promos");
             tr.append(td);
@@ -2733,7 +2734,7 @@ class ImprovChallenge{
     {
       
       let Btm = [
-      ", your commercial could have used a few laugh.",
+      ", your commercial could have used a few laughs.",
       ", on the challenge, you ran out of gas.",
       ", tonight the judges did not say yes to the product.",
       ", your product had a story. A very confusing one.",
@@ -4795,6 +4796,19 @@ let supremmehost = new Host("Supremme De Luxe","SupremmeIn","SupremmeOut");
 let rupaulhost = new Host("Rupaul","RuIn","RuOut");
 
 let ES2 = shuffle([marina, estrella, venedita, juriji, sethlas, diamante, onyx, jota, samantha, arielr, marisa]);
+
+let AllQueens = [
+  akashia, bebes1, jades, ninas1, onginas1, rebecca, shannels1, tammies1, victoriap,
+  jessicaw, jujus2, morganmcs2, mystique, npb, pandoras2, sahara, shangela, kylies2, tatis2, james,
+  akeria, ariel, brooke, honeyd, kahanna, mercedes, ninaw, plastique, rajahs11, scarletenvys11, shuga, silkys11, soju, vanessa, yvie,  
+  jaida, crystalm, gigi, jackie, heidi, widow, jan, brita, aiden, nicky, rock, dahlia,
+  denali, eliott, gottmik, joey, kahmora, kandy, lalari, liv, rose, symone, tamisha, tina, utica,
+  alyssah, angeria, bosco, daya, deja, jasminek, jorgeous, junej, kerri, kornbread, camden, maddym, orion, willow,
+  anastarzia,boa,ilona,jimbo,juice,kiara,kyne,lemon,priyanka,rita,scarlettbobo,tynomi,
+  icesis, kendall, eve, giam, pythia, adriana, kimoraa, synthia, suki, oceane, beth, stephanie,
+  marina, estrella, venedita, juriji, sethlas, diamante, onyx, jota, samantha, arielr, marisa
+];
+
 //#endregion
 
 
