@@ -416,7 +416,7 @@ class Queen {
   }
 
   getRunway() {
-    this.runwayscore = this.GetScore(0, this.runway);
+    this.runwayscore = this.GetScore(10, 40, this.runway);
   }
 
   GetDesignScore(bonus = 0)
