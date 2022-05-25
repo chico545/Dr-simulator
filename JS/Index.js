@@ -967,15 +967,15 @@ class Rusical{
     let Top = [
     "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
-    "You ruled over this runway.",
-    "You made gold out of randomness.",
-    "Your haute couture, made you rise to the top.",
-    "You have creativity beyond limits.",
-    "Tonight, you have made yourself stunning.",
-    "Your couture made us gag.",
+    "You took this role and made it your own",
+    "You took an unexpeceted role and you rocked.",
+    "You really embodied the lyrics.",
+    "You sold this character.",
+    "You were born to be on a big stage.",
+    "You WOWED us.",
     "The cream always rises to the top.",
-    "You have a great perception of design.",
-    "Your outfit kept us begging for more."
+    "You turned yourself into the MAIN CHARACTER.",
+    "We could not get enough of you."
     ];
     return(Top[getRandomInt(0,Top.length-1)]);
   }
@@ -984,12 +984,12 @@ class Rusical{
   {
     
     let Btm = [
-    ", you came here to slay, but tonight your outfit slayed you.",
-    ", on the runway, you ran out of gas.",
-    ", tonight the judges did not say yes to the dress.",
-    ", your outfit had a story. A very confusing one.",
+    ", you came here to slay, but tonight your performance slayed you.",
+    ", you faded into the background.",
+    ", tonight the judges did not say yes to the performance.",
+    ", your character lacked shine.",
     ", simplicity is sometimes the way to go. Unfortunately, not tonight.",
-    ", your outfit made our heads turn, and made us dizzy.",
+    ", your rusical performance got lost.",
     ", you need to focus. Or else it's going to cost you.",
     ];
     return(Btm[getRandomInt(0,Btm.length-1)]);
@@ -1392,15 +1392,15 @@ class ActingChallenge{
     let Top = [
     "Tonight, you knew how to work it OUT!",
     "Tonight, you shined all over this runway.",
-    "You ruled over this runway.",
-    "You made gold out of randomness.",
-    "Your haute couture, made you rise to the top.",
-    "You have creativity beyond limits.",
-    "Tonight, you have made yourself stunning.",
-    "Your couture made us gag.",
+    "You have won an oscar.",
+    "Your acting skills wowed us.",
+    "Your acting chops, made you rise to the top.",
+    "You REALLY played that character.",
+    "Tonight, you given an amazing performance.",
+    "Your performance made us gag.",
     "The cream always rises to the top.",
-    "You have a great perception of design.",
-    "Your outfit kept us begging for more."
+    "You have a great perception of acting.",
+    "And the oscar goes to."
     ];
     return(Top[getRandomInt(0,Top.length-1)]);
   }
@@ -1409,12 +1409,12 @@ class ActingChallenge{
   {
     
     let Btm = [
-    ", you came here to slay, but tonight your outfit slayed you.",
-    ", on the runway, you ran out of gas.",
-    ", tonight the judges did not say yes to the dress.",
-    ", your outfit had a story. A very confusing one.",
+    ", you came here to slay, but tonight your performance slayed you.",
+    ", on the challenge, you ran out of gas.",
+    ", tonight the judges did not say yes to the acting.",
+    ", your acting had a story. A very confusing one.",
     ", simplicity is sometimes the way to go. Unfortunately, not tonight.",
-    ", your outfit made our heads turn, and made us dizzy.",
+    ", your acting made our heads turn, and made us dizzy.",
     ", you need to focus. Or else it's going to cost you.",
     ];
     return(Btm[getRandomInt(0,Btm.length-1)]);
@@ -1862,16 +1862,16 @@ class ImprovChallenge{
     
     let Top = [
     "Tonight, you knew how to work it OUT!",
-    "Tonight, you shined all over this runway.",
-    "You ruled over this runway.",
-    "You made gold out of randomness.",
-    "Your haute couture, made you rise to the top.",
+    "Tonight, you shined all over this challenge.",
+    "You ruled over this challenge.",
+    "You made gold out of your improv skills.",
+    "Your improv skills, made you rise to the top.",
     "You have creativity beyond limits.",
-    "Tonight, you have made yourself stunning.",
-    "Your couture made us gag.",
+    "Tonight, you made us laugh with your improv.",
+    "Your improv was so quick.",
     "The cream always rises to the top.",
-    "You have a great perception of design.",
-    "Your outfit kept us begging for more."
+    "You have a great perception of iprov.",
+    "You belong on a night improv show."
     ];
     return(Top[getRandomInt(0,Top.length-1)]);
   }
@@ -1880,12 +1880,12 @@ class ImprovChallenge{
   {
     
     let Btm = [
-    ", you came here to slay, but tonight your outfit slayed you.",
-    ", on the runway, you ran out of gas.",
-    ", tonight the judges did not say yes to the dress.",
-    ", your outfit had a story. A very confusing one.",
+    ", you came here to slay, but tonight your performance slayed you.",
+    ", on the challenge, you ran out of gas.",
+    ", tonight the judges did not say yes to the challenge.",
+    ", your improv had a story. A very confusing one.",
     ", simplicity is sometimes the way to go. Unfortunately, not tonight.",
-    ", your outfit made our heads turn, and made us dizzy.",
+    ", your improv made our heads turn, and made us dizzy.",
     ", you need to focus. Or else it's going to cost you.",
     ];
     return(Btm[getRandomInt(0,Btm.length-1)]);
@@ -2305,12 +2305,12 @@ class ImprovChallenge{
   {
     
     let Btm = [
-    ", your comedy could have used a few laugh.",
-    ", on the runway, you ran out of gas.",
-    ", tonight the judges did not say yes to the dress.",
-    ", your outfit had a story. A very confusing one.",
+    ", your choreography could have used a some work.",
+    ", on the chalenge, you ran out of gas.",
+    ", tonight the judges did not say yes to the challenge.",
+    ", you had two left feet.",
     ", simplicity is sometimes the way to go. Unfortunately, not tonight.",
-    ", your outfit made our heads turn, and made us dizzy.",
+    ", your dancing made our heads turn, and made us dizzy.",
     ", you need to focus. Or else it's going to cost you.",
     ];
     return(Btm[getRandomInt(0,Btm.length-1)]);
@@ -2719,9 +2719,9 @@ class ImprovChallenge{
     {
       
       let Top = [
-      "Tonight, your choreography blew us away.",
+      "Tonight, your commercial blew us away.",
       "Tonight, we saw how bright you shine.",
-      "You have dancing running throught your veins.",
+      "You have commercial skills running throught your veins.",
       "Tonight, you showed up and showed out.",
       "You truly showed us what you are capable of.",
       "Tonight, you proved yourself.",
@@ -2733,12 +2733,12 @@ class ImprovChallenge{
     {
       
       let Btm = [
-      ", your comedy could have used a few laugh.",
-      ", on the runway, you ran out of gas.",
-      ", tonight the judges did not say yes to the dress.",
-      ", your outfit had a story. A very confusing one.",
+      ", your commercial could have used a few laugh.",
+      ", on the challenge, you ran out of gas.",
+      ", tonight the judges did not say yes to the product.",
+      ", your product had a story. A very confusing one.",
       ", simplicity is sometimes the way to go. Unfortunately, not tonight.",
-      ", your outfit made our heads turn, and made us dizzy.",
+      ", your commercial made our heads turn, and made us dizzy.",
       ", you need to focus. Or else it's going to cost you.",
       ];
       return(Btm[getRandomInt(0,Btm.length-1)]);
@@ -3150,9 +3150,9 @@ class ImprovChallenge{
     {
       
       let Top = [
-      "Tonight, your choreography blew us away.",
+      "Tonight, your brand blew us away.",
       "Tonight, we saw how bright you shine.",
-      "You have dancing running throught your veins.",
+      "You have branded yourself. ",
       "Tonight, you showed up and showed out.",
       "You truly showed us what you are capable of.",
       "Tonight, you proved yourself.",
@@ -3164,12 +3164,12 @@ class ImprovChallenge{
     {
       
       let Btm = [
-      ", your comedy could have used a few laugh.",
-      ", on the runway, you ran out of gas.",
-      ", tonight the judges did not say yes to the dress.",
-      ", your outfit had a story. A very confusing one.",
+      ", your brand could have used a few laugh.",
+      ", on the challenge, you ran out of gas.",
+      ", tonight the judges did not say yes to the brand.",
+      ", your brand had a story. A very confusing one.",
       ", simplicity is sometimes the way to go. Unfortunately, not tonight.",
-      ", your outfit made our heads turn, and made us dizzy.",
+      ", your brand made our heads turn, and made us dizzy.",
       ", you need to focus. Or else it's going to cost you.",
       ];
       return(Btm[getRandomInt(0,Btm.length-1)]);
@@ -3596,11 +3596,11 @@ class ImprovChallenge{
     
     let Btm = [
     ", your comedy could have used a few laugh.",
-    ", on the runway, you ran out of gas.",
-    ", tonight the judges did not say yes to the dress.",
-    ", your outfit had a story. A very confusing one.",
+    ", on the challenge, you ran out of gas.",
+    ", tonight the judges did not say yes to the jokes.",
+    ", your jokes had a story. A very confusing one.",
     ", simplicity is sometimes the way to go. Unfortunately, not tonight.",
-    ", your outfit made our heads turn, and made us dizzy.",
+    ", your jokes made our heads turn, and made us dizzy.",
     ", you need to focus. Or else it's going to cost you.",
     ];
     return(Btm[getRandomInt(0,Btm.length-1)]);
@@ -4731,7 +4731,7 @@ let US14 = shuffle([alyssah, angeria, bosco, daya, deja, jasminek, jorgeous, jun
 
 let icesis = new Queen("Icesis Couture", 8, 9, 10, 11, 12, 14, 12, 10, 8, 4, 0, "Icesis", "Icesis", "CA2", false);
 let kendall = new Queen("Kendall Gender", 7, 9, 10, 8, 6, 10, 14, 10, 11, 4, 1, "Kendall", "Kendall", "CA2", false);
-let eve = new Queen("Eve 6000", 10, 8, 10, 4, 6, 12, 6, 15, 15, 4, 2, "Eve", "Eve", "CA2", false);
+let eve = new Queen("Eve 6000", 7, 8, 10, 4, 6, 12, 6, 15, 15, 4, 2, "Eve", "Eve", "CA2", false);
 let giam = new Queen("Gia Metric", 8, 10, 12, 14, 7, 10, 10, 6, 12, 2, 1, "Gia", "Gia", "CA2", false);
 let pythia = new Queen("Pythia", 10, 11, 8, 7, 12, 10, 5, 12, 13, 5, 0, "Pythia", "Pythia", "CA2", false);
 let adriana = new Queen("Adriana", 13, 9, 6, 7, 9, 12, 9, 12, 9, 3, 1, "AdrianaCA2", "Adrianna", "CA2", false);
